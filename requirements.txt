@@ -1,0 +1,7 @@
+# Theory checks and E1 need only these two.
+numpy>=1.24
+scipy>=1.10
+
+# E2 figures and E3 additionally need:
+matplotlib>=3.7
+torch>=2.0

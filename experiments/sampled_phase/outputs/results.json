@@ -1,0 +1,67 @@
+{
+  "all_primary_criteria_passed": true,
+  "criteria": {
+    "best_of_eight_optimization": true,
+    "d3_capacity_control": true,
+    "high_collision": true,
+    "low_collision": true,
+    "low_gap_reversal": true,
+    "median_empirical_gram_error": true,
+    "raw_reduction_identity": true
+  },
+  "metrics": {
+    "best_of_eight_optimization_success_rate": 0.9982608695652174,
+    "d3_capacity_and_positive_gap_rate": 1.0,
+    "heldout_bridge_error_d2_median": 0.0038538774047387203,
+    "heldout_bridge_error_d2_q90": 0.00934089973253891,
+    "heldout_bridge_error_d3_median": 1.5348872645696893e-22,
+    "heldout_bridge_error_d3_q90": 5.852945842157794e-22,
+    "high_collision_rate": 1.0,
+    "low_collision_rate": 1.0,
+    "low_gap_reversal_rate": 1.0,
+    "max_gram_error_to_empirical_optimum": 0.0004607425074618643,
+    "median_gram_error_to_empirical_optimum": 3.315961690576541e-20,
+    "q90_gram_error_to_empirical_optimum": 5.450162987585846e-10,
+    "q99_gram_error_to_empirical_optimum": 1.6175475122603906e-06,
+    "raw_gradient_reduction_max_error": 6.661338147750939e-16,
+    "raw_loss_reduction_max_error": 6.661338147750939e-16,
+    "sample_size_robustness": [
+      {
+        "N": 256,
+        "error_median": 0.0,
+        "error_q10": 0.0,
+        "error_q90": 0.35956074558182183
+      },
+      {
+        "N": 1024,
+        "error_median": 0.0,
+        "error_q10": 0.0,
+        "error_q90": 0.16912929834588303
+      },
+      {
+        "N": 4096,
+        "error_median": 0.0,
+        "error_q10": 0.0,
+        "error_q90": 0.0663678219464628
+      },
+      {
+        "N": 16384,
+        "error_median": 0.0,
+        "error_q10": 0.0,
+        "error_q90": 0.03864237739750866
+      }
+    ],
+    "single_start_optimization_success_rate": 0.9975
+  },
+  "protocol": {
+    "N": 4096,
+    "base_seed": 20260809,
+    "dataset_count": 50,
+    "delta": 0.5,
+    "gradient_tolerance": 1e-10,
+    "heldout_N_per_branch": 65536,
+    "initialization_count": 8,
+    "max_steps": 20000,
+    "step_size": 0.05
+  }
+}

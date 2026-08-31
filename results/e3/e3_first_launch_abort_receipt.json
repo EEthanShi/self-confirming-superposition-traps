@@ -1,0 +1,9 @@
+{
+  "tag": "abort receipt: first E3 pilot launch",
+  "commit": "7ab8fd20332e",
+  "remote_dir": "~/sct_e2/runs/7ab8fd20332e",
+  "reason": "operational: 20 workers x 24 default torch threads, load ~400/24 cores; killed after ~61 min",
+  "outcome_artifacts": "none completed or read (report is written atomically at end only; pilot.log contained no gate output at kill time on the aborted run)",
+  "resolution": "thread pinning patch, commit 57170e1e9049; environment/PPO unchanged",
+  "wording_correction_per_review": "earlier phrasing 'no results produced' corrected to 'no outcome artifact completed or read'"
+}
